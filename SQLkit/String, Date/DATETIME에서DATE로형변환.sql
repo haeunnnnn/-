@@ -1,0 +1,4 @@
+-- 코드를 입력하세요
+SELECT ANIMAL_ID, NAME, DATE_FORMAT(DATETIME, '%Y-%m-%d') AS 날짜 /* %y로 하면 끝자리 2개*/
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID;
